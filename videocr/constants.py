@@ -1,6 +1,7 @@
+import os
 import pathlib
 
-TESSDATA_DIR = pathlib.Path.home() / 'tessdata'
+TESSDATA_DIR = pathlib.Path.cwd() / 'tessdata'
 
 TESSDATA_URL = 'https://github.com/tesseract-ocr/tessdata_fast/blob/main/{}.traineddata?raw=true'
 
